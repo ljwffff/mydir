@@ -1,7 +1,9 @@
 /*构造，重写，继承，多态,final,abstract*/
-class Test{
+public class Test{
     public static void main(String[] args){
-        
+    
+    Animal a = new Animal("lucy", 10, 10);
+    Dog d = new Dog("puppy", 10, 10, "black");
     }
 }
 
@@ -39,6 +41,7 @@ class Animal(){
 
 class Dog extends Animal(){
     private String furcolor;
+    
     Dog(String i, int j, int k, String m){
         height = i;
         weight = j;
