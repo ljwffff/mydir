@@ -43,9 +43,7 @@ class Dog extends Animal(){
     private String furcolor;
     
     Dog(String i, int j, int k, String m){
-        height = i;
-        weight = j;
-        name = k;
+        super(i, j, k);
         furcolor = m;
     }
     
